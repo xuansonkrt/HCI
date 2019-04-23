@@ -53,5 +53,13 @@ namespace DatVeTau
             btnTau3.BackgroundImage = Image.FromFile(@"E:\IT_MTA\Nam 3\Ki_2\Slide_baigiang_TTNM\project\HCI\DatVeTau\DatVeTau\images\entity.jpg");
             lbTau3.BackColor = System.Drawing.Color.White;
         }
+
+        private void btnMuaVe_Click(object sender, EventArgs e)
+        {
+            frmThongTin frm = new frmThongTin();
+            this.Hide();
+            frm.ShowDialog();
+
+        }
     }
 }

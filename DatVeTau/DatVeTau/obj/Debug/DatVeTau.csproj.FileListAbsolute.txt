@@ -7,3 +7,4 @@ E:\IT_MTA\Nam 3\Ki_2\Slide_baigiang_TTNM\project\HCI\DatVeTau\DatVeTau\obj\Debug
 E:\IT_MTA\Nam 3\Ki_2\Slide_baigiang_TTNM\project\HCI\DatVeTau\DatVeTau\obj\Debug\DatVeTau.exe
 E:\IT_MTA\Nam 3\Ki_2\Slide_baigiang_TTNM\project\HCI\DatVeTau\DatVeTau\obj\Debug\DatVeTau.pdb
 E:\IT_MTA\Nam 3\Ki_2\Slide_baigiang_TTNM\project\HCI\DatVeTau\DatVeTau\obj\Debug\DatVeTau.frmChonCho.resources
+E:\IT_MTA\Nam 3\Ki_2\Slide_baigiang_TTNM\project\HCI\DatVeTau\DatVeTau\obj\Debug\DatVeTau.frmThongTin.resources

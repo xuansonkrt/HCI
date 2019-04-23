@@ -16,5 +16,10 @@ namespace DatVeTau
         {
             InitializeComponent();
         }
+
+        private void frmThongTin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
