@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DatVeTau
 {
-    public partial class Form1 : Form
+    public partial class frmChonCho : Form
     {
-        public Form1()
+        public frmChonCho()
         {
             InitializeComponent();
         }

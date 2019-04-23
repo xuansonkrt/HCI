@@ -1,6 +1,6 @@
 ﻿namespace DatVeTau
 {
-    partial class Form1
+    partial class frmChonCho
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChonCho));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -121,12 +121,26 @@
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.btnMuaVe = new System.Windows.Forms.Button();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -141,10 +155,11 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.panel6);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(1230, 0);
+            this.panel2.Location = new System.Drawing.Point(1228, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 754);
+            this.panel2.Size = new System.Drawing.Size(279, 754);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -198,7 +213,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(200, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1030, 754);
+            this.panel3.Size = new System.Drawing.Size(1028, 754);
             this.panel3.TabIndex = 2;
             // 
             // label16
@@ -208,9 +223,9 @@
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(647, 170);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(26, 17);
+            this.label16.Size = new System.Drawing.Size(35, 17);
             this.label16.TabIndex = 24;
-            this.label16.Text = "60";
+            this.label16.Text = "150";
             // 
             // label17
             // 
@@ -231,7 +246,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(84, 17);
             this.label18.TabIndex = 22;
-            this.label18.Text = "01/05 06:00";
+            this.label18.Text = "01/05 23:00";
             // 
             // label19
             // 
@@ -241,7 +256,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(84, 17);
             this.label19.TabIndex = 21;
-            this.label19.Text = "01/05 06:00";
+            this.label19.Text = "01/05 13:00";
             // 
             // label20
             // 
@@ -297,7 +312,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(26, 17);
             this.label9.TabIndex = 16;
-            this.label9.Text = "60";
+            this.label9.Text = "36";
             // 
             // label10
             // 
@@ -318,7 +333,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 17);
             this.label11.TabIndex = 14;
-            this.label11.Text = "01/05 06:00";
+            this.label11.Text = "01/05 18:30";
             // 
             // label12
             // 
@@ -328,7 +343,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(84, 17);
             this.label12.TabIndex = 13;
-            this.label12.Text = "01/05 06:00";
+            this.label12.Text = "01/05 08:30";
             // 
             // label13
             // 
@@ -405,7 +420,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 17);
             this.label6.TabIndex = 6;
-            this.label6.Text = "01/05 06:00";
+            this.label6.Text = "01/05 16:00";
             // 
             // label5
             // 
@@ -480,6 +495,7 @@
             this.btnToa0.Name = "btnToa0";
             this.btnToa0.Size = new System.Drawing.Size(75, 43);
             this.btnToa0.TabIndex = 25;
+            this.toolTip1.SetToolTip(this.btnToa0, "Đầu tàu");
             this.btnToa0.UseVisualStyleBackColor = true;
             // 
             // btnToa1
@@ -650,9 +666,9 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.label46);
             this.panel4.Controls.Add(this.label48);
             this.panel4.Controls.Add(this.label47);
-            this.panel4.Controls.Add(this.label46);
             this.panel4.Controls.Add(this.label45);
             this.panel4.Controls.Add(this.label44);
             this.panel4.Controls.Add(this.label43);
@@ -1088,7 +1104,7 @@
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(17, 17);
             this.label44.TabIndex = 14;
-            this.label44.Text = "3";
+            this.label44.Text = "5";
             // 
             // label45
             // 
@@ -1101,18 +1117,6 @@
             this.label45.Size = new System.Drawing.Size(17, 17);
             this.label45.TabIndex = 19;
             this.label45.Text = "8";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.BackColor = System.Drawing.Color.Transparent;
-            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label46.Location = new System.Drawing.Point(163, 131);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(26, 17);
-            this.label46.TabIndex = 20;
-            this.label46.Text = "11";
             // 
             // label47
             // 
@@ -1138,23 +1142,160 @@
             this.label48.TabIndex = 22;
             this.label48.Text = "9";
             // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Lime;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label46.Location = new System.Drawing.Point(164, 132);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(26, 17);
+            this.label46.TabIndex = 23;
+            this.label46.Text = "11";
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.btnMuaVe);
+            this.panel6.Controls.Add(this.button21);
+            this.panel6.Controls.Add(this.label54);
+            this.panel6.Controls.Add(this.label55);
+            this.panel6.Controls.Add(this.label56);
+            this.panel6.Controls.Add(this.button20);
+            this.panel6.Controls.Add(this.label53);
+            this.panel6.Controls.Add(this.label52);
+            this.panel6.Controls.Add(this.label51);
+            this.panel6.Controls.Add(this.label50);
+            this.panel6.Controls.Add(this.label49);
+            this.panel6.Location = new System.Drawing.Point(33, 73);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(217, 285);
+            this.panel6.TabIndex = 0;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(75, 8);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(55, 17);
+            this.label49.TabIndex = 0;
+            this.label49.Text = "Giỏ vé";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(3, 54);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(145, 17);
+            this.label50.TabIndex = 1;
+            this.label50.Text = "SE7 Hà Nội - Sài Gòn";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(3, 71);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(121, 17);
+            this.label51.TabIndex = 2;
+            this.label51.Text = "01/05/2019-06:00";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(4, 88);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(156, 17);
+            this.label52.TabIndex = 3;
+            this.label52.Text = "Ngồi cứng, toa 1, ghế 2";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(75, 30);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(59, 17);
+            this.label53.TabIndex = 4;
+            this.label53.Text = "Chiều đi";
+            // 
+            // button20
+            // 
+            this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
+            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button20.Location = new System.Drawing.Point(174, 63);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(30, 33);
+            this.button20.TabIndex = 5;
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
+            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button21.Location = new System.Drawing.Point(175, 145);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(30, 33);
+            this.button21.TabIndex = 9;
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(5, 170);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(164, 17);
+            this.label54.TabIndex = 8;
+            this.label54.Text = "Ngồi cứng, toa 1, ghế 11";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(4, 153);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(121, 17);
+            this.label55.TabIndex = 7;
+            this.label55.Text = "01/05/2019-06:00";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(4, 136);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(145, 17);
+            this.label56.TabIndex = 6;
+            this.label56.Text = "SE7 Hà Nội - Sài Gòn";
+            // 
+            // btnMuaVe
+            // 
+            this.btnMuaVe.Location = new System.Drawing.Point(73, 224);
+            this.btnMuaVe.Name = "btnMuaVe";
+            this.btnMuaVe.Size = new System.Drawing.Size(75, 38);
+            this.btnMuaVe.TabIndex = 10;
+            this.btnMuaVe.Text = "Mua vé";
+            this.btnMuaVe.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1430, 754);
+            this.ClientSize = new System.Drawing.Size(1507, 754);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1245,7 +1386,6 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label43;
@@ -1255,6 +1395,19 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Button btnMuaVe;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label51;
     }
 }
 
