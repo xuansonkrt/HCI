@@ -98,6 +98,32 @@
             this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
             this.panel5 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
+            this.label30 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.label31 = new System.Windows.Forms.Label();
+            this.button15 = new System.Windows.Forms.Button();
+            this.label32 = new System.Windows.Forms.Label();
+            this.button16 = new System.Windows.Forms.Button();
+            this.label33 = new System.Windows.Forms.Label();
+            this.button17 = new System.Windows.Forms.Button();
+            this.label34 = new System.Windows.Forms.Label();
+            this.button18 = new System.Windows.Forms.Button();
+            this.label35 = new System.Windows.Forms.Label();
+            this.button19 = new System.Windows.Forms.Button();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -624,6 +650,18 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.label48);
+            this.panel4.Controls.Add(this.label47);
+            this.panel4.Controls.Add(this.label46);
+            this.panel4.Controls.Add(this.label45);
+            this.panel4.Controls.Add(this.label44);
+            this.panel4.Controls.Add(this.label43);
+            this.panel4.Controls.Add(this.label42);
+            this.panel4.Controls.Add(this.label41);
+            this.panel4.Controls.Add(this.label40);
+            this.panel4.Controls.Add(this.label39);
+            this.panel4.Controls.Add(this.label38);
+            this.panel4.Controls.Add(this.label37);
             this.panel4.Controls.Add(this.button12);
             this.panel4.Controls.Add(this.button11);
             this.panel4.Controls.Add(this.button10);
@@ -776,7 +814,7 @@
             // 
             this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button12.Location = new System.Drawing.Point(587, 103);
+            this.button12.Location = new System.Drawing.Point(584, 103);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 68);
             this.button12.TabIndex = 11;
@@ -786,10 +824,24 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.label36);
+            this.panel5.Controls.Add(this.button19);
+            this.panel5.Controls.Add(this.label35);
+            this.panel5.Controls.Add(this.button18);
+            this.panel5.Controls.Add(this.label34);
+            this.panel5.Controls.Add(this.button17);
+            this.panel5.Controls.Add(this.label33);
+            this.panel5.Controls.Add(this.button16);
+            this.panel5.Controls.Add(this.label32);
+            this.panel5.Controls.Add(this.button15);
+            this.panel5.Controls.Add(this.label31);
+            this.panel5.Controls.Add(this.button14);
+            this.panel5.Controls.Add(this.label30);
+            this.panel5.Controls.Add(this.button13);
             this.panel5.Controls.Add(this.label29);
-            this.panel5.Location = new System.Drawing.Point(763, 82);
+            this.panel5.Location = new System.Drawing.Point(746, 82);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(225, 587);
+            this.panel5.Size = new System.Drawing.Size(242, 587);
             this.panel5.TabIndex = 43;
             // 
             // label29
@@ -801,6 +853,290 @@
             this.label29.Size = new System.Drawing.Size(69, 17);
             this.label29.TabIndex = 0;
             this.label29.Text = "Ghi chú:";
+            // 
+            // button13
+            // 
+            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button13.Location = new System.Drawing.Point(12, 46);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 43);
+            this.button13.TabIndex = 44;
+            this.toolTip1.SetToolTip(this.button13, "Ngồi cứng ( trống 31 chỗ)");
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(93, 59);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(104, 17);
+            this.label30.TabIndex = 45;
+            this.label30.Text = "Toa đang chọn";
+            // 
+            // button14
+            // 
+            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
+            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button14.Location = new System.Drawing.Point(12, 95);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 43);
+            this.button14.TabIndex = 44;
+            this.toolTip3.SetToolTip(this.button14, "Nằm điều hòa ( trống 19 chỗ)");
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(93, 108);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(87, 17);
+            this.label31.TabIndex = 46;
+            this.label31.Text = "Toa còn chỗ";
+            // 
+            // button15
+            // 
+            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button15.Location = new System.Drawing.Point(12, 144);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 43);
+            this.button15.TabIndex = 44;
+            this.toolTip4.SetToolTip(this.button15, "Nằm khoang 4 (hết chỗ)");
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(93, 157);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(84, 17);
+            this.label32.TabIndex = 47;
+            this.label32.Text = "Toa hết chỗ";
+            // 
+            // button16
+            // 
+            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
+            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button16.Location = new System.Drawing.Point(12, 253);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 68);
+            this.button16.TabIndex = 12;
+            this.toolTip8.SetToolTip(this.button16, "Mã chỗ: 1223332/ Giá: 250.000đ");
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(96, 279);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(72, 17);
+            this.label33.TabIndex = 48;
+            this.label33.Text = "Ghế trống";
+            // 
+            // button17
+            // 
+            this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
+            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button17.Location = new System.Drawing.Point(12, 327);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 68);
+            this.button17.TabIndex = 12;
+            this.toolTip8.SetToolTip(this.button17, "Chỗ đã bán");
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(96, 353);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(83, 17);
+            this.label34.TabIndex = 49;
+            this.label34.Text = "Ghế đã bán";
+            // 
+            // button18
+            // 
+            this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
+            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button18.Location = new System.Drawing.Point(12, 401);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 68);
+            this.button18.TabIndex = 12;
+            this.toolTip6.SetToolTip(this.button18, "Chỗ đang giao dịch");
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(97, 427);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(132, 17);
+            this.label35.TabIndex = 50;
+            this.label35.Text = "Ghế đang giao dịch";
+            // 
+            // button19
+            // 
+            this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
+            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button19.Location = new System.Drawing.Point(12, 475);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(75, 68);
+            this.button19.TabIndex = 51;
+            this.toolTip8.SetToolTip(this.button19, "Mã chỗ: 1223332/ Giá: 250.000đ");
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(97, 501);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(90, 17);
+            this.label36.TabIndex = 52;
+            this.label36.Text = "Ghế đã chọn";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Red;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label37.Location = new System.Drawing.Point(616, 40);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(17, 17);
+            this.label37.TabIndex = 12;
+            this.label37.Text = "1";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Red;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label38.Location = new System.Drawing.Point(391, 40);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(17, 17);
+            this.label38.TabIndex = 13;
+            this.label38.Text = "3";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.Red;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label39.Location = new System.Drawing.Point(281, 40);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(17, 17);
+            this.label39.TabIndex = 14;
+            this.label39.Text = "4";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.Red;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label40.Location = new System.Drawing.Point(56, 40);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(17, 17);
+            this.label40.TabIndex = 15;
+            this.label40.Text = "6";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Red;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label41.Location = new System.Drawing.Point(616, 129);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(17, 17);
+            this.label41.TabIndex = 16;
+            this.label41.Text = "7";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Red;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label42.Location = new System.Drawing.Point(275, 131);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(26, 17);
+            this.label42.TabIndex = 17;
+            this.label42.Text = "10";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Lime;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label43.Location = new System.Drawing.Point(505, 40);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(17, 17);
+            this.label43.TabIndex = 18;
+            this.label43.Text = "2";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label44.Location = new System.Drawing.Point(169, 40);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(17, 17);
+            this.label44.TabIndex = 14;
+            this.label44.Text = "3";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label45.Location = new System.Drawing.Point(505, 131);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(17, 17);
+            this.label45.TabIndex = 19;
+            this.label45.Text = "8";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label46.Location = new System.Drawing.Point(163, 131);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(26, 17);
+            this.label46.TabIndex = 20;
+            this.label46.Text = "11";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label47.Location = new System.Drawing.Point(51, 131);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(26, 17);
+            this.label47.TabIndex = 21;
+            this.label47.Text = "12";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.BackColor = System.Drawing.Color.Yellow;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label48.Location = new System.Drawing.Point(391, 132);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(17, 17);
+            this.label48.TabIndex = 22;
+            this.label48.Text = "9";
             // 
             // Form1
             // 
@@ -816,6 +1152,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.ResumeLayout(false);
@@ -892,6 +1229,32 @@
         private System.Windows.Forms.ToolTip toolTip8;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
     }
 }
 
