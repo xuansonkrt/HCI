@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,19 +53,37 @@
     <Compile Include="frmChonCho.Designer.cs">
       <DependentUpon>frmChonCho.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThanhCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThanhCong.Designer.cs">
+      <DependentUpon>frmThanhCong.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmThongTin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmThongTin.Designer.cs">
       <DependentUpon>frmThongTin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmXacNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXacNhan.Designer.cs">
+      <DependentUpon>frmXacNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmChonCho.resx">
       <DependentUpon>frmChonCho.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmThanhCong.resx">
+      <DependentUpon>frmThanhCong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmThongTin.resx">
       <DependentUpon>frmThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXacNhan.resx">
+      <DependentUpon>frmXacNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
