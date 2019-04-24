@@ -42,7 +42,7 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbVDT1 = new System.Windows.Forms.ComboBox();
             this.txtVCMND1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,13 +58,14 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.txtVCMND2 = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbVDT2 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtVTen2 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.txtDVCMND = new System.Windows.Forms.TextBox();
@@ -86,12 +87,11 @@
             this.label33 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label34 = new System.Windows.Forms.Label();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rdb3 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
             this.btnTiepTheo = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
@@ -199,7 +199,7 @@
             this.panel2.Controls.Add(this.label26);
             this.panel2.Controls.Add(this.label25);
             this.panel2.Controls.Add(this.label24);
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.cbVDT1);
             this.panel2.Controls.Add(this.txtVCMND1);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
@@ -242,18 +242,18 @@
             this.label24.TabIndex = 14;
             this.label24.Text = "(*)";
             // 
-            // comboBox1
+            // cbVDT1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbVDT1.FormattingEnabled = true;
+            this.cbVDT1.Items.AddRange(new object[] {
             "Trẻ em",
             "Sinh viên",
             "Người lớn",
             "Người cao tuổi"});
-            this.comboBox1.Location = new System.Drawing.Point(118, 70);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(227, 24);
-            this.comboBox1.TabIndex = 6;
+            this.cbVDT1.Location = new System.Drawing.Point(118, 70);
+            this.cbVDT1.Name = "cbVDT1";
+            this.cbVDT1.Size = new System.Drawing.Size(227, 24);
+            this.cbVDT1.TabIndex = 6;
             // 
             // txtVCMND1
             // 
@@ -391,14 +391,14 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.textBox9);
+            this.panel6.Controls.Add(this.txtVCMND2);
             this.panel6.Controls.Add(this.label29);
             this.panel6.Controls.Add(this.label28);
             this.panel6.Controls.Add(this.label27);
-            this.panel6.Controls.Add(this.comboBox2);
+            this.panel6.Controls.Add(this.cbVDT2);
             this.panel6.Controls.Add(this.label13);
             this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.textBox4);
+            this.panel6.Controls.Add(this.txtVTen2);
             this.panel6.Controls.Add(this.label15);
             this.panel6.Controls.Add(this.label16);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
@@ -406,6 +406,13 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(613, 137);
             this.panel6.TabIndex = 0;
+            // 
+            // txtVCMND2
+            // 
+            this.txtVCMND2.Location = new System.Drawing.Point(118, 100);
+            this.txtVCMND2.Name = "txtVCMND2";
+            this.txtVCMND2.Size = new System.Drawing.Size(227, 22);
+            this.txtVCMND2.TabIndex = 27;
             // 
             // label29
             // 
@@ -437,18 +444,18 @@
             this.label27.TabIndex = 17;
             this.label27.Text = "(*)";
             // 
-            // comboBox2
+            // cbVDT2
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbVDT2.FormattingEnabled = true;
+            this.cbVDT2.Items.AddRange(new object[] {
             "Trẻ em",
             "Sinh viên",
             "Người lớn",
             "Người cao tuổi"});
-            this.comboBox2.Location = new System.Drawing.Point(118, 70);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(227, 24);
-            this.comboBox2.TabIndex = 6;
+            this.cbVDT2.Location = new System.Drawing.Point(118, 70);
+            this.cbVDT2.Name = "cbVDT2";
+            this.cbVDT2.Size = new System.Drawing.Size(227, 24);
+            this.cbVDT2.TabIndex = 6;
             // 
             // label13
             // 
@@ -468,12 +475,12 @@
             this.label14.TabIndex = 2;
             this.label14.Text = "Đối tượng";
             // 
-            // textBox4
+            // txtVTen2
             // 
-            this.textBox4.Location = new System.Drawing.Point(118, 43);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(363, 22);
-            this.textBox4.TabIndex = 4;
+            this.txtVTen2.Location = new System.Drawing.Point(118, 43);
+            this.txtVTen2.Name = "txtVTen2";
+            this.txtVTen2.Size = new System.Drawing.Size(363, 22);
+            this.txtVTen2.TabIndex = 4;
             // 
             // label15
             // 
@@ -665,16 +672,16 @@
             this.label34.Text = "- Tại các nhà ga, các điểm bưu cục VNPost, ngân hàng VIB, Payoo, Internet Banking" +
     "";
             // 
-            // radioButton3
+            // rdb3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(62, 683);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(494, 21);
-            this.radioButton3.TabIndex = 21;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Thanh toán trả sau bằng tiền mặt, internet banking tại các điểm giao dịch:";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdb3.AutoSize = true;
+            this.rdb3.Location = new System.Drawing.Point(62, 683);
+            this.rdb3.Name = "rdb3";
+            this.rdb3.Size = new System.Drawing.Size(494, 21);
+            this.rdb3.TabIndex = 21;
+            this.rdb3.TabStop = true;
+            this.rdb3.Text = "Thanh toán trả sau bằng tiền mặt, internet banking tại các điểm giao dịch:";
+            this.rdb3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -715,13 +722,6 @@
             this.label36.Size = new System.Drawing.Size(76, 17);
             this.label36.TabIndex = 26;
             this.label36.Text = "500.000đ";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(118, 100);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(227, 22);
-            this.textBox9.TabIndex = 27;
             // 
             // label37
             // 
@@ -776,7 +776,7 @@
             this.Controls.Add(this.btnTiepTheo);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.rdb3);
             this.Controls.Add(this.label33);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.label32);
@@ -821,7 +821,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbVDT1;
         private System.Windows.Forms.TextBox txtVCMND1;
         private System.Windows.Forms.TextBox txtVTen1;
         private System.Windows.Forms.Label label5;
@@ -845,11 +845,11 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbVDT2;
         private System.Windows.Forms.TextBox txtDVCMND;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtVTen2;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label26;
@@ -876,12 +876,12 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton rdb3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnTiepTheo;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtVCMND2;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;

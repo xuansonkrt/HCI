@@ -15,6 +15,8 @@ namespace DatVeTau
         public frmThongTin()
         {
             InitializeComponent();
+            rdb3.Checked = true;
+
         }
 
         private void frmThongTin_Load(object sender, EventArgs e)
@@ -24,6 +26,63 @@ namespace DatVeTau
 
         private void btnTiepTheo_Click(object sender, EventArgs e)
         {
+            if (String.IsNullOrEmpty(txtVTen1.Text))
+            {
+                MessageBox.Show("Chưa nhập Họ và tên vé 1");
+                txtVTen1.Focus();
+                return;
+            }
+
+            int cboIndex = cbVDT1.SelectedIndex;
+            if (cboIndex==-1)
+            {
+                MessageBox.Show("Chưa đối tượng cho vé 1");
+                cbVDT1.Focus();
+                return;
+            }
+
+            if (String.IsNullOrEmpty(txtVCMND1.Text))
+            {
+                MessageBox.Show("Chưa nhập số CMND vé 1");
+                txtVCMND1.Focus();
+                return;
+            }
+
+            if (String.IsNullOrEmpty(txtVTen2.Text))
+            {
+                MessageBox.Show("Chưa nhập Họ và tên vé 2");
+                txtVTen2.Focus();
+                return;
+            }
+
+            cboIndex = cbVDT2.SelectedIndex;
+            if (cboIndex == -1)
+            {
+                MessageBox.Show("Chưa đối tượng cho vé 2");
+                cbVDT2.Focus();
+                return;
+            }
+
+            if (String.IsNullOrEmpty(txtVCMND2.Text))
+            {
+                MessageBox.Show("Chưa nhập số CMND vé 2");
+                txtVCMND2.Focus();
+                return;
+            }
+            if (String.IsNullOrEmpty(txtDVTen.Text))
+            {
+                MessageBox.Show("Chưa nhập Họ và tên người đặt vé");
+                txtDVTen.Focus();
+                return;
+            }
+
+            if (String.IsNullOrEmpty(txtDVCMND.Text))
+            {
+                MessageBox.Show("Chưa nhập số CMND người đặt vé");
+                txtDVCMND.Focus();
+                return;
+            }
+
             frmXacNhan frm = new frmXacNhan();
             this.Hide();
             frm.ShowDialog();
