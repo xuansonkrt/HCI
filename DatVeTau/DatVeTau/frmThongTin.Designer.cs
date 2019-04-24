@@ -413,6 +413,7 @@
             this.txtVCMND2.Name = "txtVCMND2";
             this.txtVCMND2.Size = new System.Drawing.Size(227, 22);
             this.txtVCMND2.TabIndex = 27;
+            this.txtVCMND2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtVCMND2_KeyPress);
             // 
             // label29
             // 
@@ -481,6 +482,7 @@
             this.txtVTen2.Name = "txtVTen2";
             this.txtVTen2.Size = new System.Drawing.Size(363, 22);
             this.txtVTen2.TabIndex = 4;
+            this.txtVTen2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtVTen2_KeyPress);
             // 
             // label15
             // 
