@@ -81,3 +81,21 @@ hr {
 }
 
 
+#cart{
+    background-color: beige;
+    
+    float: right;
+    border: #e5e5e5 solid 1px;
+    border-radius: 2px; 
+    
+}
+
+#m-target-2{
+    padding: 0px;
+    z-index: 99999;
+    position: absolute;
+    width: 300px;
+    top: 137px;
+    left: 1210px;
+    
+}
