@@ -589,9 +589,10 @@
                             <a href="" style="color: white">LIÊN HỆ </a>
                         </li>
                         <li style="background-color: #88218b">
-                            <a href="" style="color: white" data-target="#m-target-2" class="dropdown-toggle"
+                            <!-- class="dropdown-toggle" -->
+                            <a href="" style="color: white" data-target="#m-target-2"
                                 data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false"><i
-                                    class="fa fa-shopping-cart" aria-hidden="true"></i> </a>
+                                    class="fa fa-shopping-cart" aria-hidden="true"></i> <span id="amount">3</span> </a>
 
                         </li>
                     </ul>
@@ -739,7 +740,7 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                            <button type="button" class="btn btn-primary">Đặt ngay</button>
+                        <a href="ThongTin.html" type="button" class="btn btn-primary">Đặt ngay</a>
                     </div>
                 </div>
             </div>
@@ -903,7 +904,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-2 col-date">
-                                    <div class="form-group" id="dvReturnDate_Train" style="">
+                                    <div class="form-group" id="dvReturnDate_Train">
                                         <label for="exampleInputName6" class="control-label sr-only">Ngày về</label>
                                         <div class="iconic-input">
                                             <i class="fa fa-calendar"></i>
@@ -1714,41 +1715,47 @@
                                         style="border-bottom: 1px solid  #e5e5e5; background-color: cornflowerblue; padding: 10px; color:white">
                                         <i class="fa fa-shopping-cart" style="margin-right:10px"></i>Giỏ vé
                                     </div>
-                                    <div class="row" style="margin: 0px">
-                                        <div class="col-sm-9" style="padding: 10px">
-                                            <p class="infor">SE7 Hà Nội - Sài Gòn</p>
-                                            <p class="infor">06:00-06/06/2019</p>
-                                            <p class="infor">Ngồi cứng toa 2 ghế 7</p>
+                                    <div class="scroll" style="height: 85%">
+                                        <div class="row" style="margin: 0px">
+                                            <div class="col-sm-9" style="padding: 10px">
+                                                <p class="infor">SE7 Hà Nội - Sài Gòn</p>
+                                                <p class="infor">06:00-06/06/2019</p>
+                                                <p class="infor">Ngồi cứng toa 2 ghế 7</p>
 
+                                            </div>
+                                            <div class="col-sm-3" style="text-align: center; padding: 0px">
+                                                <span class="infor">120</span>
+                                                </br>
+                                                <i class="fa fa-trash"
+                                                    style="cursor: pointer; color: red; font-size: 25px"
+                                                    data-toggle="tooltip" data-placement="top" title="Hủy vé"></i>
+                                            </div>
                                         </div>
-                                        <div class="col-sm-3" style="text-align: center; padding: 0px">
-                                            <span class="infor">120</span>
-                                            </br>
-                                            <i class="fa fa-trash" style="cursor: pointer; color: red; font-size: 25px"
-                                                data-toggle="tooltip" data-placement="top" title="Hủy vé"></i>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row" style="margin: 0px">
-                                        <div class="col-sm-9" style="padding: 10px">
-                                            <p class="infor">SE7 Hà Nội - Sài Gòn</p>
-                                            <p class="infor">06:00-06/06/2019</p>
-                                            <p class="infor">Ngồi cứng toa 2 ghế 8</p>
+                                        <hr>
+                                        <div class="row" style="margin: 0px">
+                                            <div class="col-sm-9" style="padding: 10px">
+                                                <p class="infor">SE7 Hà Nội - Sài Gòn</p>
+                                                <p class="infor">06:00-06/06/2019</p>
+                                                <p class="infor">Ngồi cứng toa 2 ghế 8</p>
 
+                                            </div>
+                                            <div class="col-sm-3" style="text-align: center; padding: 0px">
+                                                <span class="infor">130</span>
+                                                </br>
+                                                <i class="fa fa-trash"
+                                                    style="cursor: pointer; color: red; font-size: 25px"
+                                                    data-toggle="tooltip" data-placement="top" title="Hủy vé"></i>
+                                            </div>
                                         </div>
-                                        <div class="col-sm-3" style="text-align: center; padding: 0px">
-                                            <span class="infor">130</span>
-                                            </br>
-                                            <i class="fa fa-trash" style="cursor: pointer; color: red; font-size: 25px"
-                                                data-toggle="tooltip" data-placement="top" title="Hủy vé"></i>
-                                        </div>
+                                        
+
                                     </div>
                                 </div>
                                 <!-- end giỏ vé -->
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">Đặt ngay</button>
+                            <a href="ThongTin.html" type="button" class="btn btn-primary">Đặt ngay</a>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
                         </div>
                     </div>

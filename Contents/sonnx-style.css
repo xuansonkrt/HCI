@@ -99,3 +99,14 @@ hr {
     left: 1210px;
     
 }
+
+#amount{
+    position: relative;
+    top: -11px;
+    left: -13px;
+    background-color: red;
+    border-radius:50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
