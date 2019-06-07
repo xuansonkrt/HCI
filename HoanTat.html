@@ -834,388 +834,96 @@
             </div>
             <!-- end search -->
             <div class="container">
-                <div class="row m-t-5" style="margin-top: 20px">
-                    <div class="col-sm-4">
-                        <div class="card" hidden>
-                            <div class="card-header">
-                                Thông tin lịch trình
-                            </div>
-                            <div class="card-body">
-
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <!-- style="margin-top: 20px" -->
-                            <div class="card-header">
-                                Thông tin thanh toán
-                            </div>
-                            <div class="card-body">
-                                <div class="row" style="padding: 10px">
-                                    <div class="col-sm-5">Tiền vé:</div>
-                                    <div class="col-sm-7" style="text-align: right">
-                                        <i>500.000đ</i>
-                                    </div>
-                                </div>
-                                <div class="row" style="padding: 10px">
-                                    <div class="col-sm-5">VAT(10%):</div>
-                                    <div class="col-sm-7" style="text-align: right">
-                                        <i>50.000đ</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer">
-                                <div class="row" style="padding: 10px">
-                                    <div class="col-sm-4"><strong>Tổng</strong></div>
-                                    <div class="col-sm-8" style="text-align: right">
-                                        <strong><i>550.000đ</i></strong>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-4" style="text-align: center">
+                        <img src="/Contents/qr.png" alt=""> <br>
+                        <span>Quét QR code để thanh toán</span>
                     </div>
-                    <div class="col-sm-8">
-                        <div>
-                            <p>Thông tin người đặt vé</p>
-                            <div style="padding: 10px; border: #e5e5e5 solid 1px;    border-radius: .25rem;">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="row form-group">
-                                            <label for="" class="col-sm-4 ">Họ và tên <span
-                                                    style="color: red">*</span></label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control" placeholder="Họ và tên">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="row form-group">
-                                            <label for="" class="col-sm-4 ">Giới tính</label>
-                                            <div class="col-sm-8">
-                                                <input type="radio" name="gender" id="" checked> Nam
-                                                <input type="radio" name="gender" id="" style="margin-left:15px"> Nữ
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="row form-group">
-                                            <label for="" class="col-sm-4 ">Số CMND <span
-                                                    style="color: red">*</span></label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control"
-                                                    placeholder="Số chứng minh nhân dân">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="row form-group">
-                                            <label for="" class="col-sm-4 ">SĐT </label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control" placeholder="Số điện thoại">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="row form-group">
-                                            <label for="" class="col-sm-4 ">Email</label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control" placeholder="Email">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="row form-group">
-                                            <label for="" class="col-sm-4 ">Địa chỉ</label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control" placeholder="Địa chỉ">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-sm-8" style="margin-top: 15px">
+                        <h5 style="text-align: center; font-size: 20px">Đặt chỗ thành công</h5>
+                        <div
+                            style="border: #e5e5e5 solid 1px; border-radius: 2px;  background-color: floralwhite ; width: 200px; padding: 5px">
+                            Mã đặt chỗ: <strong>21SSD212</strong> <br>
+                            Mã thanh toán: <strong>12321s</strong>
                         </div>
-                        <div style="margin-top:15px ">
-                            <p>Thông tin vé 1</p>
-                            <div class="row" style=" border: #e5e5e5 solid 1px; margin: 0px;    border-radius: .25rem;">
-                                <div class="col-sm-7" style="padding: 10px">
-                                    <div class="row ">
-                                        <label for="" class="col-sm-4 ">Họ và tên <span
-                                                style="color: red">*</span></label>
-                                        <div class="col-sm-8 form-group">
-                                            <input type="text" class="form-control" placeholder="Họ và tên">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <label for="" class="col-sm-4 ">Đối tượng <span
-                                                style="color: red">*</span></label>
-                                        <div class="col-sm-8">
-                                            <select class="form-control">
-                                                <option value="" selected>Người lớn</option>
-                                                <option value="">Trẻ em</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <label for="" class="col-sm-4 ">Số CMND <span
-                                                style="color: red">*</span></label>
-                                        <div class="col-sm-8 form-group" style="margin-bottom: 0px">
-                                            <input type="text" class="form-control"
-                                                placeholder="Số chứng minh nhân dân">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-5 my-auto" style=" border-left: #e5e5e5 solid 1px;">
-                                    <div class="my-auto " style="height: 100%">
-                                        <div class="row" style="margin: 0px">
-                                            <div class="col-sm-9" style="padding: 10px">
+                        <span class="infor">Quý khách vui lòng sử dung mã thanh toán <strong>12321s</strong> để thực hiện giao dịch thanh
+                            toán qua InternetBanking hoặc các đại lý thu tiền ủy quyền. </span>
+                        
+                        <div style="margin-top: 15px">
+                            Thông tin vé
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center; width: 25px">STT</th>
+                                        <th style="text-align: center">Hành khách</th>
+                                        <th style="text-align: center">Lịch trình</th>
+                                        <th style="text-align: center">Giá vé</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: center">1</td>
+                                        <td>
+                                            Họ và tên: <strong>Nguyễn Xuân Sơn</strong> <br>
+                                            Đối tượng: <strong>Người lớn</strong> <br>
+                                            Số CMND: <strong>12345678</strong>
+                                        </td>
+                                        <td>
+                                            <p class="infor">Khởi hành: <strong>Ga Hà Nội
+                                                    06:00-06/06/2019</strong>
+                                            </p>
+                                            <p class="infor">Điểm đến: <strong>Ga Sài Gòn
+                                                    16:00-06/06/2019</strong>
+                                            </p>
+                                            <p class="infor">Ngồi cứng toa 2 ghế 7</p>
+                                        </td>
+                                        <td style="text-align: right">250.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center">2</td>
+                                        <td>
+                                            Họ và tên: <strong>Nguyễn Nhật Minh</strong> <br>
+                                            Đối tượng: <strong>Trẻ em</strong> <br>
+                                            Số CMND: <strong></strong>
+                                        </td>
+                                        <td>
+                                            <p class="infor">Khởi hành: <strong>Ga Hà Nội
+                                                    06:00-06/06/2019</strong>
+                                            </p>
+                                            <p class="infor">Điểm đến: <strong>Ga Sài Gòn
+                                                    16:00-06/06/2019</strong>
+                                            </p>
+                                            <p class="infor">Ngồi cứng toa 2 ghế 8</p>
+                                        </td>
+                                        <td style="text-align: right">250.000đ</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">Thành tiền</td>
+                                        <td style="text-align: right">500.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">VAT(10%)</td>
+                                        <td style="text-align: right">50.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">Tổng</td>
+                                        <td style="text-align: right">550.000đ</td>
+                                    </tr>
 
-                                                <p class="infor">Khởi hành: <strong>Ga Hà Nội 06:00-06/06/2019</strong>
-                                                </p>
-                                                <p class="infor">Điểm đến: <strong>Ga Sài Gòn 16:00-06/06/2019</strong>
-                                                </p>
-                                                <p class="infor">Ngồi cứng toa 2 ghế 7</p>
-                                                <p class="infor">Giá vé: 250.000đ</p>
-
-                                            </div>
-                                            <div class="col-sm-3 my-auto" style="text-align: center; padding: 0px">
-                                                <span class="infor">130</span>
-                                                </br>
-                                                <i class="fa fa-trash"
-                                                    style="cursor: pointer; color: red; font-size: 25px"
-                                                    data-toggle="tooltip" data-placement="top" title="Hủy vé"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                </tfoot>
+                            </table>
                         </div>
-                        <div style="margin-top:15px ">
-                            <p>Thông tin vé 2</p>
-                            <div class="row" style=" border: #e5e5e5 solid 1px; margin: 0px;    border-radius: .25rem;">
-                                <div class="col-sm-7" style="padding: 10px">
-                                    <div class="row ">
-                                        <label for="" class="col-sm-4 ">Họ và tên <span
-                                                style="color: red">*</span></label>
-                                        <div class="col-sm-8 form-group">
-                                            <input type="text" class="form-control" placeholder="Họ và tên">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <label for="" class="col-sm-4 ">Đối tượng <span
-                                                style="color: red">*</span></label>
-                                        <div class="col-sm-8">
-                                            <select class="form-control">
-                                                <option value="" selected>Người lớn</option>
-                                                <option value="">Trẻ em</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <label for="" class="col-sm-4 ">Số CMND <span
-                                                style="color: red">*</span></label>
-                                        <div class="col-sm-8 form-group" style="margin-bottom: 0px">
-                                            <input type="text" class="form-control"
-                                                placeholder="Số chứng minh nhân dân">
-                                        </div>
-                                    </div>
+                        <p>Quý khách vui lòng thanh toán trước thời hạn 01/06/2019 16:21</p>    
+                        <p>Quý khách có thể liên hệ với trung tâm hỗ trợ khách hàng 19006469 để được trợ giúp.<br>Chúng tôi phục
+                                vụ quý khách 24 giờ trong ngày và 7 ngày trong tuần.</p>
+                                <div style="text-align:  center">
+                                    <a href="formchin.html" class="btn btn-primary">Trang chủ</a>
                                 </div>
-                                <div class="col-sm-5 my-auto" style=" border-left: #e5e5e5 solid 1px;">
-                                    <div class="my-auto " style="height: 100%">
-                                        <div class="row" style="margin: 0px">
-                                            <div class="col-sm-9" style="padding: 10px">
-
-                                                <p class="infor">Khởi hành: <strong>Ga Hà Nội 06:00-06/06/2019</strong>
-                                                </p>
-                                                <p class="infor">Điểm đến: <strong>Ga Sài Gòn 16:00-06/06/2019</strong>
-                                                </p>
-                                                <p class="infor">Ngồi cứng toa 2 ghế 8</p>
-                                                <p class="infor">Giá vé: 250.000đ</p>
-
-                                            </div>
-                                            <div class="col-sm-3 my-auto" style="text-align: center; padding: 0px">
-                                                <span class="infor">130</span>
-                                                </br>
-                                                <i class="fa fa-trash"
-                                                    style="cursor: pointer; color: red; font-size: 25px"
-                                                    data-toggle="tooltip" data-placement="top" title="Hủy vé"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="margin-top:15px ">
-                            <p>Hình thức thanh toán</p>
-                            <div class="card" style="width: 100%;">
-                                <ul class="list-group list-group-flush" style="margin-bottom: 0px">
-                                    <li class="list-group-item">
-                                        <div class="col-sm-3">
-                                            <input type="radio" name="thanhtoan" id="">
-                                            <img src="/Contents/logo-dvtt-SML.png" alt="">
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <dl>
-                                                <dt>Thanh toán trực tuyến:</dt>
-                                                <dd class="infor">-Bằng thẻ nội địa, thẻ quốc tế qua cổng của công ty cổ
-                                                    phần thanh toán quốc gia Việt Nam - Napas</dd>
-                                            </dl>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="col-sm-3">
-                                            <input type="radio" name="thanhtoan" id="" checked>
-                                            <img src="/Contents/logo-dvtt-PAYOO.png" alt="" style="width:119px">
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <dl>
-                                                <dt>Thanh toán trực tuyến qua cổng Payoo:</dt>
-                                                <dd class="infor">- Ví điện tử, thẻ nội địa, thẻ quốc tế qua cổng thanh
-                                                    toán Payoo</dd>
-                                            </dl>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <div class="col-sm-3">
-                                            <input type="radio" name="thanhtoan" id="">
-                                            <img src="/Contents/logo-dvtt-PayLater.png" alt="" style="width:119px">
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <dl>
-                                                <dt>Thanh toán trả sau bằng tiền mặt, internet banking tại các điểm giao
-                                                    dịch:</dt>
-                                                <dd class="infor">- Tại các nhà ga, các điểm bưu cục VNPost, ngân hàng
-                                                    VIB, Payoo,
-                                                    Internet Banking</dd>
-                                            </dl>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div style="margin-top:15px ">
-                            <a href="ChonCho.html" class="btn btn-primary" style="width: 115px"><i
-                                    class="fa fa-angle-double-left" style="margin-right: 10px; "></i>Trở lại</a>
-                            <a href="" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
-                                style="width: 115px; float:right">Tiếp theo<i class="	fa fa-angle-double-right"
-                                    style="margin-left: 10px"></i></a>
-                        </div>
-
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Xác nhận thông tin</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div>
-                                            <span  style="margin-bottom: 0px">Thông tin người đặt vé</span>
-                                            <div class="row" style="padding-left: 20px;padding-right: 20px">
-                                                <div class="col-sm-6">
-                                                    Họ và tên: <strong>Nguyễn Xuân Sơn</strong>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    Giới tính: <strong>Nam</strong>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    Số CMND: <strong>12345678</strong>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    SĐT: <strong>0147852369</strong>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    Email: <strong>xuansonahihi@gmail.com</strong>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    Địa chỉ: <strong>Hưng Yên</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div style="margin-top: 15px">
-                                            Thông tin vé
-                                            <table class="table table-bordered">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="text-align: center; width: 25px">STT</th>
-                                                        <th style="text-align: center">Hành khách</th>
-                                                        <th style="text-align: center">Lịch trình</th>
-                                                        <th style="text-align: center">Giá vé</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td style="text-align: center">1</td>
-                                                        <td>
-                                                            Họ và tên: <strong>Nguyễn Xuân Sơn</strong> <br>
-                                                            Đối tượng: <strong>Người lớn</strong> <br>
-                                                            Số CMND: <strong>12345678</strong>
-                                                        </td>
-                                                        <td>
-                                                            <p class="infor">Khởi hành: <strong>Ga Hà Nội
-                                                                    06:00-06/06/2019</strong>
-                                                            </p>
-                                                            <p class="infor">Điểm đến: <strong>Ga Sài Gòn
-                                                                    16:00-06/06/2019</strong>
-                                                            </p>
-                                                            <p class="infor">Ngồi cứng toa 2 ghế 7</p>
-                                                        </td>
-                                                        <td style="text-align: right">250.000đ</td>
-                                                    </tr>
-                                                    <tr>
-                                                            <td style="text-align: center">2</td>
-                                                            <td>
-                                                                Họ và tên: <strong>Nguyễn Nhật Minh</strong> <br>
-                                                                Đối tượng: <strong>Trẻ em</strong> <br>
-                                                                Số CMND: <strong></strong>
-                                                            </td>
-                                                            <td>
-                                                                <p class="infor">Khởi hành: <strong>Ga Hà Nội
-                                                                        06:00-06/06/2019</strong>
-                                                                </p>
-                                                                <p class="infor">Điểm đến: <strong>Ga Sài Gòn
-                                                                        16:00-06/06/2019</strong>
-                                                                </p>
-                                                                <p class="infor">Ngồi cứng toa 2 ghế 8</p>
-                                                            </td>
-                                                            <td style="text-align: right">250.000đ</td>
-                                                        </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                    <tr>
-                                                        <td colspan="3">Thành tiền</td>
-                                                        <td style="text-align: right">500.000đ</td>
-                                                    </tr>
-                                                    <tr>
-                                                            <td colspan="3">VAT(10%)</td>
-                                                            <td style="text-align: right">50.000đ</td>
-                                                        </tr>
-                                                        <tr>
-                                                                <td colspan="3">Tổng</td>
-                                                                <td style="text-align: right">550.000đ</td>
-                                                            </tr>
-                                                    
-                                                </tfoot>
-                                            </table>
-                                        </div>
-                                        <div>
-                                            Hình thức thanh toán:
-                                            <strong>Thanh toán trực tuyến qua cổng Payoo</strong>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sửa
-                                            lại</button>
-                                        <a href="HoanTat.html" type="button" class="btn btn-primary">Tiếp theo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
+
+
                 </div>
 
             </div>
